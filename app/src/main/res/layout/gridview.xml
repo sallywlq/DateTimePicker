@@ -8,11 +8,11 @@
     <!--android:horizontalSpacing="" 两列之间的间距-->
     <!--android:verticalSpacing="" 两行之间的间距-->
     <GridView
-        android:layout_width="match_parent"
-        android:layout_height="378dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/gridView"
         android:layout_weight="0.46"
-        android:numColumns="auto_fit"
+        android:numColumns="3"
         android:horizontalSpacing="10dp"
         android:verticalSpacing="10dp"/>
 

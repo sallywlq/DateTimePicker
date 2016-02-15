@@ -6,13 +6,11 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.DatePicker;
-import android.widget.TimePicker;
 
-import java.util.Calendar;
 
 public class MainActivity extends ActionBarActivity {
-    private Button bt;
+    private Button date_bt;
+    private Button grid_bt;
 
 
 
@@ -20,13 +18,23 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        bt = (Button)findViewById(R.id.date_bt);
-        bt.setOnClickListener(new View.OnClickListener() {
+        date_bt = (Button)findViewById(R.id.date_bt);
+        date_bt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
                 Intent intent = new Intent(MainActivity.this,DatePickerActivity.class);
                 startActivity(intent);
+            }
+        });
+        grid_bt = (Button)findViewById(R.id.grid_bt);
+        grid_bt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,GridViewActivity.class);
+                startActivity(intent);
+
+
             }
         });
 

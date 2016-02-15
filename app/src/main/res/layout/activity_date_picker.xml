@@ -18,20 +18,20 @@
 
     <TimePicker
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
         android:id="@+id/timePicker"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/datePicker"
-        android:layout_marginTop="20dp"
-        android:layout_marginBottom="63dp" />
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="3dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="返回"
+        android:text="返回1"
         android:id="@+id/date_back_bt"
+        android:layout_below="@+id/timePicker"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
