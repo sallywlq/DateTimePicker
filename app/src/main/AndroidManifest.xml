@@ -16,7 +16,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".DatePickerActivity" />
-        <activity android:name=".GridViewActivity"></activity>
+        <activity android:name=".GridViewActivity" />
+        <activity android:name=".SpinnerActivity" />
+        <activity android:name=".ProgressBarActivity" />
+        <activity android:name=".WebViewActivity"></activity>
     </application>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
 </manifest>

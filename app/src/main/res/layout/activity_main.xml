@@ -27,6 +27,30 @@
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/date_bt"
         android:layout_toEndOf="@+id/date_bt"
-        android:layout_marginLeft="39dp"
-        android:layout_marginStart="39dp" />
+        android:layout_marginLeft="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下拉列表"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/spinner_bt"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/grid_bt" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进度条"
+        android:id="@+id/progress_bt"
+        android:layout_below="@+id/date_bt"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="webview"
+        android:id="@+id/webview_bt"
+        android:layout_alignTop="@+id/progress_bt"
+        android:layout_alignStart="@+id/grid_bt" />
 </RelativeLayout>

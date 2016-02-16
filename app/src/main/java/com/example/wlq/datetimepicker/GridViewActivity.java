@@ -71,4 +71,5 @@ private int[] icon = {R.mipmap.ic_launcher,R.mipmap.ic_launcher,R.mipmap.ic_laun
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         Toast.makeText(this,"我是"+iconName[position],Toast.LENGTH_SHORT).show();
     }
+
 }
